@@ -1,0 +1,22 @@
+.showcase-part {
+    position: relative;
+    width: calc(100vw / 6);
+    height: 60vh;
+    display: inline-block;
+    overflow: hidden;
+    &:nth-child(odd) {
+        background-color: black;
+    }
+    &:hover .showcase-part-description {
+        bottom: 0;
+    }
+}
+
+.showcase-part-description {
+    position: absolute;
+    height: 20vh;
+    width: 100%;
+    background-color: rgba(4, 163, 206, 0.4);
+    transition: bottom 0.5s;
+    bottom: -100%;
+}

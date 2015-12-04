@@ -1,0 +1,23 @@
+header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    height: 10vh;
+    background-color: white;
+    menu {
+        margin-top: 30px;
+        font-family: "Montserrat-Regular";
+        position: absolute;
+        right: 10px;
+        ul {
+            li {
+                text-transform: uppercase;
+                display: inline-block;
+                padding: 10px;
+                &:hover {
+                    color: #83e0fd;
+                }
+            }
+        }
+    }
+}

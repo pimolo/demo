@@ -1,0 +1,31 @@
+@import "compass/reset";
+@import "compass/css3";
+
+@include font-face("Montserrat Regular", font-files("Montserrat-Regular.woff", "Montserrat-Regular.ttf", "Montserrat-Regular.svg"), "Montserrat-Regular.eot");
+@include font-face("CrimsonText Roman", font-files("CrimsonText-Roman.woff", "CrimsonText-Roman.ttf", "CrimsonText-Roman.svg"), "CrimsonText-Roman.eot");
+
+@import "includes/header";
+@import "includes/section1";
+@import "includes/section2";
+@import "includes/section3";
+
+.section {
+    width: 100vw;
+    text-align: center;
+}
+
+.big-section {
+    line-height: 100vh;
+    height: 100vh;
+}
+
+.little-section {
+    line-height: 60vh;
+    height: 60vh;
+}
+
+.centered-bloc {
+    vertical-align:middle;
+    display:inline-block;
+    line-height:normal;
+}

@@ -1,0 +1,35 @@
+#presentation {
+    font-family: "Montserrat Regular";
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-presentation {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+    @include border-radius(2px 2px);
+    border: 1px solid white;
+    margin: 0 15px;
+    background-color: transparent;
+    &:hover {
+        background-color: #00c7fc;
+    }
+}
+
+.little-title {
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+.big-title {
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
