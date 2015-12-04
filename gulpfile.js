@@ -9,7 +9,7 @@ gulp.task('serve', function() {
         server: "./public"
     });
 
-    gulp.src('fonts-fontface/*').pipe(gulp.dest('public/fonts'));
+    gulp.src('fonts/*').pipe(gulp.dest('public/fonts'));
     gulp.src('img/*').pipe(gulp.dest('public/images'));
     gulp.watch("sass/**/*.scss", ['compass']);
     gulp.watch("templates/*.jade", ['templates']);
